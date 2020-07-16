@@ -16,4 +16,5 @@ $ python2 ifc.py list.txt
 
 # Hasil
 
-$ Cek found.txt untuk lihat hasilnya.
+$ mcheck found.txt 
+untuk lihat hasilnya.
