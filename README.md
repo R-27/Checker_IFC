@@ -12,7 +12,7 @@ $ git clone https://github.com/R-27/Checker_IFC/
 $ cd Checker_IFC
 
 
-$ python2 Checker_IFC.py list.txt
+$ python2 ifc.py list.txt
 
 # Hasil
 
