@@ -53,7 +53,7 @@ def main():
         except:
             pass
        
-ListPass = open(sys.argv[1], 'r').readlines()      
+ListPass = open(sys.argv[1], 'r').readlines()     
 pool = ThreadPool(250)
 pool.map(cms, ListPass)
 pool.close()
