@@ -24,9 +24,9 @@ prRed("        \/     \/     \/     \/     \/    \/                \/      \/   
 print("")
 print("")
 print("")
-prRed("Copyright Indonesian Fighter Cyber")
-prLightYellow("My Girl : Thalita Vasti Natania")
-prLightCyan("Coder     : R-27")
+prLightGray("Copyright Indonesian Fighter Cyber")
+prRed("Shell Finder / Checker")
+prLightCyan("R-27 x Thalita")
 
 
 def cms(url):
