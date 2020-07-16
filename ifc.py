@@ -25,8 +25,8 @@ print("")
 print("")
 print("")
 prRed("Copyright Indonesian Fighter Cyber")
-prLightPurple("My Girl : Thalita Vasti Natania")
-prLightGray("Coder     : R-27")
+prLightYellow("My Girl : Thalita Vasti Natania")
+prLightCyan("Coder     : R-27")
 
 
 def cms(url):
