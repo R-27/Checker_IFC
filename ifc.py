@@ -95,7 +95,7 @@ print("")
 print("")
 prRed("Copyright Indonesian Fighter Cyber")
 prWhite("Coder  : R-27")
-prPink("My Girl : Thalita Vasti Natania ♡")
+prPink("My Girl : Thalita Vasti Natania")
 
 print("")
 print("")
