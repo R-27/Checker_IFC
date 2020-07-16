@@ -25,22 +25,26 @@ print("")
 print("")
 print("")
 prBlack("-----------------------------------")
-prLightGray("Copyright Indonesian Fighter Cyber")
-prRed("Shell Finder / Checker")
-prCyan("R-27 x Thalita")
+prRed("Copyright Indonesian Fighter Cyber")
+prCyan("Shell Finder / Checker")
+prRed("R-27 x Thalita")
 prBlack("-----------------------------------")
+
+
+print("")
+print("")
 
 def cms(url):
  try:
  
    op =urllib2.urlopen(url,timeout=7)
    if "Upload" in op.read():
-     prGreen( "[LIVE] : "+url)
+     prGreen( "[Green Dir] : "+url)
      open("found.txt","a").write(url)
 
   
  except:
-    prRed ( "[DIE] : "+ url)
+    prRed ( "[Red Dir] : "+ url)
     pass
 
 
@@ -53,7 +57,7 @@ def main():
         except:
             pass
        
-ListPass = open(sys.argv[1], 'r').readlines()     
+ListPass = open(sys.argv[1], 'r').readlines()      
 pool = ThreadPool(250)
 pool.map(cms, ListPass)
 pool.close()
@@ -62,5 +66,5 @@ pool.join()
 if __name__ == '__main__': 
  
     print("Program Finished")
-    print("R-27 - Indonesian Fighter Cyber")
+    prRed("R-27 - Indonesian Fighter Cyber")
 
