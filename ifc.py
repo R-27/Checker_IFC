@@ -27,7 +27,7 @@ print("")
 prBlack("-----------------------------------")
 prLightGray("Copyright Indonesian Fighter Cyber")
 prRed("Shell Finder / Checker")
-prLightCyan("R-27 x Thalita")
+prCyan("R-27 x Thalita")
 prBlack("-----------------------------------")
 
 def cms(url):
