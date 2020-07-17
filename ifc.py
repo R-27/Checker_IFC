@@ -27,7 +27,7 @@ print("")
 prBlack("-----------------------------------")
 prRed("Copyright Indonesian Fighter Cyber")
 prCyan("Shell Finder / Checker")
-prRed("R-27 x Thalita")
+prGreen("R-27 x Thalita")
 prBlack("-----------------------------------")
 
 
