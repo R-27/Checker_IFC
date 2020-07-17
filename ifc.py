@@ -67,4 +67,3 @@ if __name__ == '__main__':
  
     print("Program Finished")
     prRed("R-27 - Indonesian Fighter Cyber")
-
