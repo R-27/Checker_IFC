@@ -4,6 +4,7 @@
 
 $ apt update && apt upgrade
 
+$ pkg install python2
 
 $ git clone https://github.com/R-27/Checker_IFC/
 
